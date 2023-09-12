@@ -65,8 +65,8 @@ export function ExerciseEditor({ editable, state }: ExerciseProps) {
                 )
             }}
             className={tw`
-                    mr-2 cursor-pointer rounded-md !border border-gray-500 bg-editor-primary-100 px-1 py-[1px] text-sm transition-all
-                  hover:bg-editor-primary-200 focus:bg-editor-primary-200 focus:outline-none
+                    z-31 mr-2 cursor-pointer rounded-md !border border-gray-500 bg-editor-primary-100 px-1 py-[1px] text-sm
+                  transition-all hover:bg-editor-primary-200 focus:bg-editor-primary-200 focus:outline-none
                   `}
             value={getCurrentInteractivePlugin() ?? ''}
           >

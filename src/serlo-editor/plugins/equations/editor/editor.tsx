@@ -347,7 +347,7 @@ export function EquationsEditor(props: EquationsProps) {
 
   function renderButtons(row: number) {
     if (!nestedFocus) return
-    const buttonClass = tw`serlo-button-editor-secondary serlo-tooltip-trigger mr-2 h-8 w-8`
+    const buttonClass = tw`serlo-button-editor-secondary serlo-tooltip-trigger z-20 mr-2 h-8 w-8`
 
     return (
       <div className="ml-6 text-right">

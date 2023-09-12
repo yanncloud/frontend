@@ -23,8 +23,8 @@ export function InlineSrcControls({ state }: ImageProps) {
           disabled={isTempFile(src.value) && !src.value.failed}
           onChange={(e) => state.src.set(e.target.value)}
           className={tw`
-            mb-side mr-2 block w-60 rounded-xl border-2 border-editor-primary-100 bg-editor-primary-100
-            px-2.5 py-[3px] text-almost-black focus:border-editor-primary focus:outline-none
+            mb-side mr-2 block w-80 rounded-xl border-2
+            border-editor-primary-100 bg-editor-primary-100 px-2.5 py-[3px] text-almost-black focus:border-editor-primary focus:outline-none
           `}
           data-qa="plugin-image-src"
         />
